@@ -48,16 +48,16 @@ func verifySign(c *gin.Context) (res map[string]string, err error) {
 	var debug string
 
 	if method == "GET" {
-		req    = c.Request.URL.Query()
-		sn     = c.Query("sn")
-		debug  = c.Query("debug")
-		ts, _  = strconv.ParseInt(c.Query("ts"), 10, 64)
+		req = c.Request.URL.Query()
+		sn = c.Query("sn")
+		debug = c.Query("debug")
+		ts, _ = strconv.ParseInt(c.Query("ts"), 10, 64)
 	} else if method == "POST" {
 		c.Request.ParseForm()
-		req    = c.Request.PostForm
-		sn     = c.PostForm("sn")
-		debug  = c.PostForm("debug")
-		ts, _  = strconv.ParseInt(c.PostForm("ts"), 10, 64)
+		req = c.Request.PostForm
+		sn = c.PostForm("sn")
+		debug = c.PostForm("debug")
+		ts, _ = strconv.ParseInt(c.PostForm("ts"), 10, 64)
 	} else {
 		err = alarm.New("非法请求")
 		return
@@ -65,8 +65,8 @@ func verifySign(c *gin.Context) (res map[string]string, err error) {
 
 	if debug == "1" {
 		res = map[string]string{
-			"ts" : strconv.FormatInt(function.GetTimeUnix(), 10),
-			"sn" : function.CreateSign(req),
+			"ts": strconv.FormatInt(function.GetTimeUnix(), 10),
+			"sn": function.CreateSign(req),
 		}
 		return
 	}
@@ -75,7 +75,7 @@ func verifySign(c *gin.Context) (res map[string]string, err error) {
 
 	// 验证过期时间
 	timestamp := time.Now().Unix()
-	if ts > timestamp || timestamp - ts >= exp {
+	if ts > timestamp || timestamp-ts >= exp {
 		err = alarm.New("Ts Error")
 		return
 	}

@@ -11,7 +11,7 @@ import (
 	"gopkg.in/go-playground/validator.v8"
 )
 
-func InitRouter(r *gin.Engine)  {
+func InitRouter(r *gin.Engine) {
 
 	r.Use(logger.LoggerToFile())
 

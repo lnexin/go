@@ -20,6 +20,7 @@ type bodyLogWriter struct {
 	gin.ResponseWriter
 	body *bytes.Buffer
 }
+
 func (w bodyLogWriter) Write(b []byte) (int, error) {
 	w.body.Write(b)
 	return w.ResponseWriter.Write(b)
@@ -56,7 +57,7 @@ func LoggerToFile() gin.HandlerFunc {
 	// 设置 rotatelogs
 	logWriter, err := rotatelogs.New(
 		// 分割后的文件名称
-		fileName + ".%Y%m%d.log",
+		fileName+".%Y%m%d.log",
 
 		// 生成软链，指向最新日志文件
 		rotatelogs.WithLinkName(fileName),
@@ -78,7 +79,7 @@ func LoggerToFile() gin.HandlerFunc {
 	}
 
 	lfHook := lfshook.NewHook(writeMap, &logrus.JSONFormatter{
-		TimestampFormat:"2006-01-02 15:04:05",
+		TimestampFormat: "2006-01-02 15:04:05",
 	})
 
 	// 新增钩子
@@ -98,16 +99,15 @@ func LoggerToFile() gin.HandlerFunc {
 		responseBody := bodyLogWriter.body.String()
 
 		var responseCode string
-		var responseMsg  string
+		var responseMsg string
 		var responseData interface{}
-
 
 		if responseBody != "" {
 			res := entity.Result{}
 			err := json.Unmarshal([]byte(responseBody), &res)
 			if err == nil {
 				responseCode = strconv.Itoa(res.Code)
-				responseMsg  = res.Message
+				responseMsg = res.Message
 				responseData = res.Data
 			}
 		}
@@ -118,23 +118,23 @@ func LoggerToFile() gin.HandlerFunc {
 		if c.Request.Method == "POST" {
 			c.Request.ParseForm()
 		}
-		
+
 		// 日志格式
-		logger.WithFields(logrus.Fields {
-			"request_method"    : c.Request.Method,
-			"request_uri"       : c.Request.RequestURI,
-			"request_proto"     : c.Request.Proto,
-			"request_useragent" : c.Request.UserAgent(),
-			"request_referer"   : c.Request.Referer(),
-			"request_post_data" : c.Request.PostForm.Encode(),
-			"request_client_ip" : c.ClientIP(),
+		logger.WithFields(logrus.Fields{
+			"request_method":    c.Request.Method,
+			"request_uri":       c.Request.RequestURI,
+			"request_proto":     c.Request.Proto,
+			"request_useragent": c.Request.UserAgent(),
+			"request_referer":   c.Request.Referer(),
+			"request_post_data": c.Request.PostForm.Encode(),
+			"request_client_ip": c.ClientIP(),
 
-			"response_status_code" : c.Writer.Status(),
-			"response_code"        : responseCode,
-			"response_msg"         : responseMsg,
-			"response_data"        : responseData,
+			"response_status_code": c.Writer.Status(),
+			"response_code":        responseCode,
+			"response_msg":         responseMsg,
+			"response_data":        responseData,
 
-			"cost_time" : endTime.Sub(startTime),
+			"cost_time": endTime.Sub(startTime),
 		}).Info()
 	}
 }
@@ -142,7 +142,7 @@ func LoggerToFile() gin.HandlerFunc {
 // 日志记录到 MongoDB
 func LoggerToMongo() gin.HandlerFunc {
 	return func(c *gin.Context) {
-		
+
 	}
 }
 

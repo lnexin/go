@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BufSettings">
+    <option name="path" value="$PROJECT_DIR$/src/web_demo/proto/exam_message.proto" />
+  </component>
+  <component name="ProtobufSettings">
+    <option name="autoDecompile" value="true" />
+    <roots>
+      <entry common="false" path="file://$PROJECT_DIR$/src/web_demo/proto" />
+    </roots>
+  </component>
+</project>

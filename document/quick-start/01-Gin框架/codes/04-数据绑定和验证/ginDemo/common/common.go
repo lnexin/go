@@ -41,6 +41,6 @@ func CreateSign(params url.Values) string {
 	}
 
 	// 自定义签名算法
-	sign := MD5(MD5(str) + MD5(config.APP_NAME + config.APP_SECRET))
+	sign := MD5(MD5(str) + MD5(config.APP_NAME+config.APP_SECRET))
 	return sign
 }

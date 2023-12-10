@@ -8,5 +8,4 @@ const (
 
 	Log_FILE_PATH = "/Users/xinliangnote/go/logs"
 	LOG_FILE_NAME = "system.log"
-
 )

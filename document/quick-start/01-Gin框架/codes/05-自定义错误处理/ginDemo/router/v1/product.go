@@ -7,7 +7,7 @@ import (
 	"net/http"
 )
 
-func AddProduct(c *gin.Context)  {
+func AddProduct(c *gin.Context) {
 	// 获取 Get 参数
 	name := c.Query("name")
 
@@ -30,11 +30,10 @@ func AddProduct(c *gin.Context)  {
 func hello(name string) (str string, err error) {
 	if name == "" {
 		// 无意抛出 panic
-		var slice = [] int {1, 2, 3, 4, 5}
+		var slice = []int{1, 2, 3, 4, 5}
 		slice[6] = 6
 		return
 	}
 	str = fmt.Sprintf("hello: %s", name)
 	return
 }
-

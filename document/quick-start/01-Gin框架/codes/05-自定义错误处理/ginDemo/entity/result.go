@@ -13,7 +13,7 @@ const (
 	CODE_SUCCESS int = 1
 
 	//失败
-	CODE_ERROR   int = -1
+	CODE_ERROR int = -1
 
 	//自定义...
 )

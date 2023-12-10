@@ -39,7 +39,7 @@ func LoggerToFile() gin.HandlerFunc {
 	// 设置 rotatelogs
 	logWriter, err := rotatelogs.New(
 		// 分割后的文件名称
-		fileName + ".%Y%m%d.log",
+		fileName+".%Y%m%d.log",
 
 		// 生成软链，指向最新日志文件
 		rotatelogs.WithLinkName(fileName),
@@ -61,7 +61,7 @@ func LoggerToFile() gin.HandlerFunc {
 	}
 
 	lfHook := lfshook.NewHook(writeMap, &logrus.JSONFormatter{
-		TimestampFormat:"2006-01-02 15:04:05",
+		TimestampFormat: "2006-01-02 15:04:05",
 	})
 
 	// 新增钩子
@@ -94,11 +94,11 @@ func LoggerToFile() gin.HandlerFunc {
 
 		// 日志格式
 		logger.WithFields(logrus.Fields{
-			"status_code"  : statusCode,
-			"latency_time" : latencyTime,
-			"client_ip"    : clientIP,
-			"req_method"   : reqMethod,
-			"req_uri"      : reqUri,
+			"status_code":  statusCode,
+			"latency_time": latencyTime,
+			"client_ip":    clientIP,
+			"req_method":   reqMethod,
+			"req_uri":      reqUri,
 		}).Info()
 	}
 }
@@ -106,7 +106,7 @@ func LoggerToFile() gin.HandlerFunc {
 // 日志记录到 MongoDB
 func LoggerToMongo() gin.HandlerFunc {
 	return func(c *gin.Context) {
-		
+
 	}
 }
 

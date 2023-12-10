@@ -1,4 +1,4 @@
-//demo_26.go
+// demo_26.go
 package main
 
 import (
@@ -17,10 +17,10 @@ func main() {
 
 	fmt.Printf("current time unix : %d\n", getTimeInt())
 
-	params := map[string]interface{} {
-		"name" : "Tom",
-		"pwd"  : "123456",
-		"age"  : 30,
+	params := map[string]interface{}{
+		"name": "Tom",
+		"pwd":  "123456",
+		"age":  30,
 	}
 	fmt.Printf("sign : %s\n", createSign(params))
 }
@@ -47,7 +47,7 @@ func createSign(params map[string]interface{}) string {
 	var key []string
 	var str = ""
 	for k := range params {
-		key   = append(key, k)
+		key = append(key, k)
 	}
 	sort.Strings(key)
 	for i := 0; i < len(key); i++ {

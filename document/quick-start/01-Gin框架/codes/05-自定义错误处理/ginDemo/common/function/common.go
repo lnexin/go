@@ -13,6 +13,7 @@ import (
 func GetTimeStr() string {
 	return time.Now().Format("2006-01-02 15:04:05")
 }
+
 // 获取当前时间戳
 func GetTimeUnix() int64 {
 	return time.Now().Unix()
@@ -44,6 +45,6 @@ func CreateSign(params url.Values) string {
 	}
 
 	// 自定义签名算法
-	sign := MD5(MD5(str) + MD5(config.APP_NAME + config.APP_SECRET))
+	sign := MD5(MD5(str) + MD5(config.APP_NAME+config.APP_SECRET))
 	return sign
 }

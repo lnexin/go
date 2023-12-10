@@ -22,8 +22,8 @@ func AddMember(c *gin.Context) {
 	// 处理业务(下次再分享)
 
 	data := map[string]interface{}{
-		"name" : mem.Name,
-		"age"  : mem.Age,
+		"name": mem.Name,
+		"age":  mem.Age,
 	}
 	res.SetCode(entity.CODE_SUCCESS)
 	res.SetData(data)

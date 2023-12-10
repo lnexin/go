@@ -9,7 +9,7 @@ import (
 	"strconv"
 )
 
-func InitRouter(r *gin.Engine)  {
+func InitRouter(r *gin.Engine) {
 
 	r.GET("/sn", SignDemo)
 
@@ -32,9 +32,9 @@ func SignDemo(c *gin.Context) {
 	ts := strconv.FormatInt(common.GetTimeUnix(), 10)
 	res := map[string]interface{}{}
 	params := url.Values{
-		"name"  : []string{"a"},
-		"price" : []string{"10"},
-		"ts"    : []string{ts},
+		"name":  []string{"a"},
+		"price": []string{"10"},
+		"ts":    []string{ts},
 	}
 	res["sn"] = common.CreateSign(params)
 	res["ts"] = ts
