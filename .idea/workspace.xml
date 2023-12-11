@@ -5,74 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64e031c3-6047-48e8-a15f-f9c0bf7e669f" name="Changes" comment="[merge] merge maser branch">
-      <change afterPath="$PROJECT_DIR$/src/web_demo/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/web_demo/proto/exam_message.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web_demo/proto/main/ExamMessage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/00-基础语法/codes/demo_10.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/00-基础语法/codes/demo_10.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/00-基础语法/codes/demo_11.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/00-基础语法/codes/demo_11.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/00-基础语法/codes/demo_12.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/00-基础语法/codes/demo_12.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/00-基础语法/codes/demo_13.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/00-基础语法/codes/demo_13.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/00-基础语法/codes/demo_14.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/00-基础语法/codes/demo_14.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/00-基础语法/codes/demo_15.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/00-基础语法/codes/demo_15.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/00-基础语法/codes/demo_16.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/00-基础语法/codes/demo_16.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/00-基础语法/codes/demo_17.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/00-基础语法/codes/demo_17.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/00-基础语法/codes/demo_18.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/00-基础语法/codes/demo_18.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/00-基础语法/codes/demo_19.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/00-基础语法/codes/demo_19.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/00-基础语法/codes/demo_20.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/00-基础语法/codes/demo_20.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/00-基础语法/codes/demo_21.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/00-基础语法/codes/demo_21.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/00-基础语法/codes/demo_22.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/00-基础语法/codes/demo_22.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/00-基础语法/codes/demo_23.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/00-基础语法/codes/demo_23.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/00-基础语法/codes/demo_24.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/00-基础语法/codes/demo_24.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/00-基础语法/codes/demo_25.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/00-基础语法/codes/demo_25.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/00-基础语法/codes/demo_26.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/00-基础语法/codes/demo_26.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/00-基础语法/codes/demo_4.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/00-基础语法/codes/demo_4.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/00-基础语法/codes/demo_5.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/00-基础语法/codes/demo_5.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/00-基础语法/codes/demo_6.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/00-基础语法/codes/demo_6.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/00-基础语法/codes/demo_7.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/00-基础语法/codes/demo_7.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/00-基础语法/codes/demo_8.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/00-基础语法/codes/demo_8.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/00-基础语法/codes/demo_9.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/00-基础语法/codes/demo_9.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/02-路由配置/ginDemo/common/common.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/02-路由配置/ginDemo/common/common.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/02-路由配置/ginDemo/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/02-路由配置/ginDemo/config/config.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/02-路由配置/ginDemo/controller/v1/member.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/02-路由配置/ginDemo/controller/v1/member.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/02-路由配置/ginDemo/controller/v1/product.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/02-路由配置/ginDemo/controller/v1/product.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/02-路由配置/ginDemo/controller/v2/member.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/02-路由配置/ginDemo/controller/v2/member.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/02-路由配置/ginDemo/controller/v2/product.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/02-路由配置/ginDemo/controller/v2/product.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/02-路由配置/ginDemo/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/02-路由配置/ginDemo/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/02-路由配置/ginDemo/router/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/02-路由配置/ginDemo/router/router.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/03-日志记录/ginDemo/common/common.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/03-日志记录/ginDemo/common/common.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/03-日志记录/ginDemo/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/03-日志记录/ginDemo/config/config.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/03-日志记录/ginDemo/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/03-日志记录/ginDemo/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/03-日志记录/ginDemo/middleware/logger.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/03-日志记录/ginDemo/middleware/logger.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/03-日志记录/ginDemo/router/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/03-日志记录/ginDemo/router/router.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/03-日志记录/ginDemo/router/v1/member.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/03-日志记录/ginDemo/router/v1/member.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/03-日志记录/ginDemo/router/v1/product.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/03-日志记录/ginDemo/router/v1/product.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/03-日志记录/ginDemo/router/v2/member.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/03-日志记录/ginDemo/router/v2/member.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/03-日志记录/ginDemo/router/v2/product.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/03-日志记录/ginDemo/router/v2/product.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/04-数据绑定和验证/ginDemo/common/common.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/04-数据绑定和验证/ginDemo/common/common.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/04-数据绑定和验证/ginDemo/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/04-数据绑定和验证/ginDemo/config/config.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/04-数据绑定和验证/ginDemo/entity/result.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/04-数据绑定和验证/ginDemo/entity/result.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/04-数据绑定和验证/ginDemo/middleware/logger/logger.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/04-数据绑定和验证/ginDemo/middleware/logger/logger.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/04-数据绑定和验证/ginDemo/middleware/sign/sign.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/04-数据绑定和验证/ginDemo/middleware/sign/sign.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/04-数据绑定和验证/ginDemo/router/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/04-数据绑定和验证/ginDemo/router/router.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/04-数据绑定和验证/ginDemo/router/v1/member.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/04-数据绑定和验证/ginDemo/router/v1/member.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/04-数据绑定和验证/ginDemo/router/v1/product.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/04-数据绑定和验证/ginDemo/router/v1/product.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/04-数据绑定和验证/ginDemo/router/v2/member.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/04-数据绑定和验证/ginDemo/router/v2/member.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/04-数据绑定和验证/ginDemo/router/v2/product.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/04-数据绑定和验证/ginDemo/router/v2/product.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/05-自定义错误处理/ginDemo/common/alarm/alarm.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/05-自定义错误处理/ginDemo/common/alarm/alarm.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/05-自定义错误处理/ginDemo/common/function/common.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/05-自定义错误处理/ginDemo/common/function/common.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/05-自定义错误处理/ginDemo/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/05-自定义错误处理/ginDemo/config/config.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/05-自定义错误处理/ginDemo/entity/result.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/05-自定义错误处理/ginDemo/entity/result.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/05-自定义错误处理/ginDemo/middleware/logger/logger.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/05-自定义错误处理/ginDemo/middleware/logger/logger.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/05-自定义错误处理/ginDemo/middleware/recover/recover.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/05-自定义错误处理/ginDemo/middleware/recover/recover.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/05-自定义错误处理/ginDemo/middleware/sign/sign.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/05-自定义错误处理/ginDemo/middleware/sign/sign.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/05-自定义错误处理/ginDemo/router/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/05-自定义错误处理/ginDemo/router/router.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/05-自定义错误处理/ginDemo/router/v1/member.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/05-自定义错误处理/ginDemo/router/v1/member.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/05-自定义错误处理/ginDemo/router/v1/product.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/05-自定义错误处理/ginDemo/router/v1/product.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/05-自定义错误处理/ginDemo/router/v2/member.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/05-自定义错误处理/ginDemo/router/v2/member.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/05-自定义错误处理/ginDemo/router/v2/product.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/01-Gin框架/codes/05-自定义错误处理/ginDemo/router/v2/product.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/02-Go gRPC/codes/01-gRPC Hello World/go_client/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/02-Go gRPC/codes/01-gRPC Hello World/go_client/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/02-Go gRPC/codes/01-gRPC Hello World/go_server/controller/hello_controller/hello_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/02-Go gRPC/codes/01-gRPC Hello World/go_server/controller/hello_controller/hello_server.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/quick-start/02-Go gRPC/codes/01-gRPC Hello World/go_server/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/document/quick-start/02-Go gRPC/codes/01-gRPC Hello World/go_server/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +20,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file:///opt/homebrew/Cellar/go/1.21.4/libexec" />
+  <component name="GOROOT" url="file:///opt/homebrew/Cellar/go/1.21.5/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -97,6 +31,11 @@
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="true" />
+    <option name="urls">
+      <list>
+        <option value="file://$USER_HOME$/go/bin" />
+      </list>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -112,27 +51,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultGoTemplateProperty": "Go File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "go.import.settings.migrated": "true",
-    "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/Users/xind/projects/xin/go/docker/nginx/html/dir",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "go.vgo",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.automatic.dependencies.download&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;configurable..is.expanded&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/xind/projects/xin/go/docker/nginx/html/dir&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;go.sdk&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/docker/nginx/html/dir" />
